@@ -4,14 +4,35 @@
 }
 
 body{
-    background-color: lavender;
+    background-color: rgb(196, 196, 247);
 
 }
 
 main{
-    background-color: aqua;
+    background-color: lavender;
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.644);
+}
+h1{
+    font-size: 1.5cm;
+    color: azure;
+}
+h2{
+    font-size: 2cm;
+    color: azure;
+}
+img.lado{
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
 }
